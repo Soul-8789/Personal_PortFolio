@@ -4,7 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 
 import Expense from "../assets/projects/expense.png";
-import Encryption from "../assets/projects/Encryption.jpeg";
+import crypto from "../assets/projects/crypto.png";
 
 import Realtime from "../assets/projects/realtime.png";
 
@@ -26,7 +26,7 @@ const Projects = () => {
               isBlog={false}
               title="Expense Tracker"
               description="Developed a dynamic and user-friendly expense tracker application using the MERN (MongoDB, Express.js, React, Node.js) stack, facilitating efficient financial management and providing insightful data visualization."
-              ghLink="https://www.google.com/"
+              ghLink="https://github.com/Soul-8789/Expense_Tracker"
               demoLink="https://www.google.com/"
             />
           </Col>
@@ -44,11 +44,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Encryption}
+              imgPath={crypto}
               isBlog={false}
               title="Encyption and Decryption App"
               description="We developed an android application in which we incorporated various encryption algorithms, like Pig Latin Encryption, Diffie Hellman Key Exchange Algorithm and Caesar Encryption, to encrypt and decrypt text and also exchange secret numbers."
-              ghLink="https://www.google.com/"
+              ghLink="https://github.com/Soul-8789/Encryption_and_Decryption_App"
             />
           </Col>
 
